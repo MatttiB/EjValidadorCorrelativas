@@ -18,6 +18,7 @@ class Inscripcion{
 class Materia{
     -nombre : String
     -correlativas : Set <Materia>
+    +agregarCorrelativa(Materia materia) : void
     +cumpleCorrelativas(Set <Materia> materias) : boolean
 }
 
